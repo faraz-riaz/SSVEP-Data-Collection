@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SSVEP Data Collection</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainwave Training</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <button id="startButton">Start</button>
-  <div id="boxes">
-    <div class="box" id="box1"></div>
-    <div class="box" id="box2"></div>
-    <div class="box" id="box3"></div>
-    <div class="box" id="box4"></div>
-  </div>
-  <div id="message"></div>
-  <script src="script.js"></script>
+    <button id="startButton">Start</button>
+    <div id="boxes" class="hidden">
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+        <div id="box4" class="box"></div>
+    </div>
+    <div id="restMessage" class="hidden">Please rest and look away</div>
+    <div id="thankYouMessage" class="hidden">Data Collection Complete</div>
+
+    <script src="script.js"></script>
 </body>
 </html>
